@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --borgandy : #3F181C;
+  --black : rgb(30, 27, 27);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  color: white;
+}
+.black{
+  background-color:var(--black);
+}
+.borgandy{
+  background-color: var(--borgandy);
+}
+.footer-p p{
+  font-size: 15px;
+}
+.buttons-footer button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: orangered;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.swiper-slide img {
+  display: flex;
+  border-radius: 50%;
+  width: 70px;
+}

@@ -1,0 +1,424 @@
+<!-- import React from 'react'
+
+const Note = () => {
+  return (
+    <div className='borgandy container-fluid p-10 grid grid-cols-1 flex   lgl:grid-cols-2 '>
+        <div className="black flex flex-col p-7 w-[100%]">
+            <h1 className="text-orange-200 text-3xl mb-10 ">Need Help? Open a Ticket</h1>
+            <p>Our support team will get back to you ASAP via email.</p>
+            <div className="grid grid-cols-1 lgl:grid-cols-2 mt-7">
+
+                <div className="flex flex-col">
+                    <label htmlFor="">Your Name</label>
+                    <input placeholder='Enter Your Name' className='borgandy mt-1 mb-7 p-2 w-[300px] rounded-[7px]' type="text" />
+                </div>
+
+                <div className="flex flex-col">
+                    <label htmlFor="">Your Email</label>
+                    <input placeholder='Enter Your Email' className='borgandy mt-1 mb-7 p-2 rounded-[7px] w-[300px]' type="text" />
+                </div>
+
+            </div>
+            <textarea className='borgandy w-[100%] h-[200px] p-10 rounded-[7px]' name="" id=""></textarea>
+            <button className="mt-10 bg-orange-500 w-40 rounded-full h-[50px] hover:bg-transparent transition duration-30 ">Submit Ticket</button>
+        </div>
+
+        <div className="black  w-[60%]">
+            <h1>Subscribe to receive future updates</h1>
+            <p>Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.</p>
+            <hr />
+            <div className="">
+            <input className='borgandy' type="text" />
+            <input className='borgandy' type="text" />
+            <button className='mr-10 bg-orange-500 w-[500px] rounded-full h-[50px] hover:bg-transparent transition duration-30'>Submit</button>
+            </div>
+        </div>
+
+    </div>
+  )
+}
+
+export default Note
+
+
+
+
+
+import React from 'react'
+
+const Note = () => {
+  return (
+    <div className="borgandy">
+        <div className='borgandy container mx-auto p-10 grid grid-cols-1  lgl:grid-cols-2 '>
+        <div className="black flex flex-col p-7 w-[100%] mt-5">
+            <h1 className="text-orange-200 text-3xl mb-10 ">Need Help? Open a Ticket</h1>
+                <p>Our support team will get back to you ASAP via email.</p>
+
+            <div className="grid grid-cols-1 lgl:grid-cols-2 mt-7">
+                <div className="flex flex-col">
+                <label htmlFor="">Your Name</label>
+                        <input placeholder='Enter Your Name' className='borgandy mt-1 mb-7 p-2 w-[300px] rounded-[7px]' type="text" />
+                    </div>
+
+                    <div className="flex flex-col">
+                        <label htmlFor="">Your Email</label>
+                        <input placeholder='Enter Your Email' className='borgandy mt-1 mb-7 p-2 rounded-[7px] w-[300px]' type="text" />
+                    </div>
+                </div>
+
+                <textarea className='borgandy w-[100%] h-[200px] p-10 rounded-[7px]' name="" id=""></textarea>
+            <button className="mt-10 bg-orange-500 w-40 rounded-full h-[50px] hover:bg-transparent transition duration-30 ">Submit Ticket</button>
+        </div>
+
+      <div className="flex justify-end mt-5">
+        <div className="black w-[400px] p-7 ">
+                <h1 className="text-orange-200 text-2xl mb-3 ">Subscribe to receive future updates</h1>
+                <p>Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.</p>
+                <hr />
+                <div className="">
+                <input placeholder='Enter Your Name' className='borgandy p-5  w-[100%] rounded-[10px] h-[50px] mt-10' type="text" />
+                <input placeholder='Enter Your Email' className='borgandy w-[100%] p-5 rounded-[10px] h-[50px] mt-5 mb-5' type="text" />
+                <button className='mr-10 bg-orange-500 w-[100%] rounded-[10px] h-10 hover:bg-transparent transition duration-30'>Submit</button>
+                </div>
+            </div>
+      </div>
+       
+    </div>
+    </div>
+  )
+}
+
+export default Note
+
+
+
+
+
+
+
+import React from 'react'
+
+const Note = () => {
+  return (
+    <div className="borgandy">
+        <div className='borgandy container mx-auto p-10 grid grid-cols-1  lgl:grid-cols-2 '>
+        <div className="black flex flex-col p-7  w-[800px]">
+            <h1 className="text-orange-200 text-3xl mb-10 ">Need Help? Open a Ticket</h1>
+                <p>Our support team will get back to you ASAP via email.</p>
+
+            <div className="grid grid-cols-1 lgl:grid-cols-2 mt-7">
+                <div className="flex flex-col">
+                <label htmlFor="">Your Name</label>
+                        <input placeholder='Enter Your Name' className='borgandy mt-1 mb-7 p-2 w-[300px] rounded-[7px]' type="text" />
+                    </div>
+
+                    <div className="flex flex-col">
+                        <label htmlFor="">Your Email</label>
+                        <input placeholder='Enter Your Email' className='borgandy mt-1 mb-7 p-2 rounded-[7px] w-[300px]' type="text" />
+                    </div>
+                </div>
+
+                <textarea className='borgandy w-[100%] h-[200px] p-10 rounded-[7px]' name="" id=""></textarea>
+            <button className="mt-10 bg-orange-500 w-40 rounded-full h-[50px] hover:bg-transparent transition duration-30 ">Submit Ticket</button>
+        </div>
+
+        <div className="black p-7 w-[450px] ms-[250px]">
+                <h1 className="text-orange-200 text-2xl mb-3 ">Subscribe to receive future updates</h1>
+                <p >Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.</p>
+                <hr className='mt-5 bg-orange-500 border-none h-[1px]' />
+                <div className="">
+                <input placeholder='Enter Your Name' className='borgandy p-5  w-[100%] rounded-[10px] h-[50px] mt-10' type="text" />
+                <input placeholder='Enter Your Email' className='borgandy w-[100%] p-5 rounded-[10px] h-[50px] mt-5 mb-5' type="text" />
+                <button className='mr-10 bg-orange-500 w-[100%] rounded-[10px] h-10 hover:bg-transparent transition duration-30'>Submit</button>
+                </div>
+            </div>
+      </div>
+       
+    </div>
+  )
+}
+
+export default Note -->
+
+
+
+---gallryy
+import React from 'react'
+import gallery1 from '../assets/gallery-1.jpg'
+import gallery2 from '../assets/gallery-2.jpg'
+import gallery3 from '../assets/gallery-3.jpg'
+import gallery4 from '../assets/gallery-4.jpg'
+import gallery5 from '../assets/gallery-5.jpg'
+import gallery6 from '../assets/gallery-6.jpg'
+import Adress from './Adress'
+
+
+
+const Gallery = () => {
+  return (
+    
+    <div className="borgandy">
+        <Adress   />
+        <div className='container mx-auto gallery borgandy p-10 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 '>
+        <div>
+            <img src={gallery1} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery2} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery3} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery4} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery5} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery6} alt="" />
+        </div>
+    </div>
+    </div>
+  )
+}
+
+export default Gallery
+
+<footer>
+    import React from 'react'
+import face from '../assets/facebook white.png'
+import twitter from '../assets/twitter white.png'
+import insta from '../assets/instagram.png'
+import linked from '../assets/linked in white.png'
+
+const Footer = () => {
+  return (
+    <div className='borgandy '>
+        <div className="container p-10 mx-auto grid grid-cols-1 md:grid-cols-3 ">
+
+            <div className=" mr-[100px]">
+                <h2 className="text-orange-500 text-3xl mb-5 "> About Us</h2>
+                <p>We are committed to delivering high-quality solutions and services to meet your needs. Our mission is to empower your digital presence.</p>
+            </div>
+
+            <div className="">
+                <h2 className="text-orange-500 text-3xl mb-5 ">Quick Links</h2>
+                <p >Home <br />
+                   About <br />
+                   Services <br />
+                   Contact</p>
+            </div>
+
+            <div className="">
+                <h2 className="text-orange-500 text-3xl mb-5 ">Contact Us</h2>
+                <div className="">
+                    <p>123 Street Name, City, Country</p>
+                </div>
+                <div className="">
+                    <p>+123 456 7890</p>
+                </div>
+                <div className="">
+                    <p>support@example.com</p>
+                </div>
+            </div>
+        </div>
+
+        <hr className='mt-5 bg-gray-500 border-none h-[1px]' />
+        <div className=" flex justify-between p-10">
+            <div className=" ">
+                <button className='bg-orange-500 rounded-full w-[40px] mr-5'><img src={face} alt="" /></button>
+                <button className='bg-orange-500 rounded-full w-[40px] mr-5'><img src={insta} alt="" /></button>
+                <button className='bg-orange-500 rounded-full w-[40px] mr-5'><img src={twitter} alt="" /></button>
+                <button className='bg-orange-500 rounded-full w-[40px] mr-5'><img src={linked} alt="" /></button>
+            </div>
+            <h3>© 2024 AbdulRahman Alaa. All Rights Reserved.</h3>
+        </div>
+        
+        
+    </div>
+  )
+}
+
+export default Footer
+</footer>
+
+
+gallryy
+import gallery1 from '../assets/gallery-1.jpg'
+const Images = [
+    { id: 1, img: gallery1 },
+    { id: 2, img: gallery2 },
+    { id: 3, img: gallery3 },
+    { id: 4, img: gallery4 },
+    { id: 5, img: gallery5 },
+    { id: 6, img: gallery6 },
+];
+
+const Gallery = () => {
+  return (
+      <div className="borgandy">
+                     <ul className=''>
+                        {Images.map((Image) => (
+                          <li className='hover:bg-red-500 p-2 rounded-md ' key={item.id}>
+                            <img src={item.page} alt="" />                        
+                             </li>
+      
+                        ))}
+                     </ul>
+                  </div>
+  )
+}
+
+export default Gallery
+
+import gallery1 from '../assets/gallery-1.jpg'
+import gallery2 from '../assets/gallery-2.jpg'
+import gallery3 from '../assets/gallery-3.jpg'
+import gallery4 from '../assets/gallery-4.jpg'
+import gallery5 from '../assets/gallery-5.jpg'
+import gallery6 from '../assets/gallery-6.jpg'
+
+
+
+const Gallery = () => {
+  return (
+     <div className="borgandy">
+      {/* <Adress  adrees="Gallrjjy"/> */}
+
+         <div className='gallery container mx-auto borgandy p-10 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 '>
+        <div>
+            <img src={gallery1} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery2} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery3} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery4} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery5} alt="" />
+        </div>
+
+        <div>
+            <img src={gallery6} alt="" />
+        </div>
+    </div>
+     </div>
+  )
+}
+
+export default Gallery
+
+
+menu 
+
+import ice from '../assets/cold-beverages.png'
+import desserts from '../assets/desserts.png'
+import refreshment from '../assets/refreshment.png'
+import combo from '../assets/combo.png'
+import coffe from '../assets/coffee-hero-section.png';
+import burger from '../assets/burger-frenchfries.png';
+import Adress from './Adreesmenu'
+
+
+
+
+const Menu = () => {
+  return (
+    <div className="black">
+        <Adress  adrees="Menu"/>
+        <div className=' container mx-auto p-10'>
+        <div className="grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 ">
+
+        <div className="bg-black w-[350px]  p-5 h-[450px] mb-10">
+        <img className='w-[220px]  mb-7 ' src={ice} alt="" />
+                <h1 className='text-2xl mb-4'> <b>Hot Beverages</b> </h1>
+                <p className='text-[15px] text-gray-400 mb-4'>Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?</p>
+            </div>
+
+            <div className="bg-black w-[350px]  p-5 h-[450px] mb-10">
+            <img className='w-[220px]  mb-7 ' src={desserts} alt="" />
+                <h1 className='text-2xl mb-4'> <b>Hot Beverages</b> </h1>
+                <p className='text-[15px] text-gray-400 mb-4'>Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?</p>
+            </div>
+
+            <div className="bg-black w-[350px]  p-5 h-[450px] mb-10">
+            <img className='w-[220px]  mb-7 ' src={refreshment} alt="" />
+                <h1 className='text-2xl mb-4'> <b>Hot Beverages</b> </h1>
+                <p className='text-[15px] text-gray-400 mb-4'>Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?</p>
+            </div>
+
+            <div className="bg-black w-[350px]  p-5 h-[450px] mb-10">
+            <img className='w-[220px]  mb-7 ' src={combo} alt="" />
+                <h1 className='text-2xl mb-4'> <b>Hot Beverages</b> </h1>
+                <p className='text-[15px] text-gray-400 mb-4'>Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?</p>
+            </div>
+
+            <div className="bg-black w-[350px]  p-5 h-[450px] mb-10">
+            <img className='w-[220px]  mb-7 ' src={coffe} alt="" />
+                <h1 className='text-2xl mb-4'> <b>Hot Beverages</b> </h1>
+                <p className='text-[15px] text-gray-400 mb-4'>Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?</p>
+            </div>
+
+            <div className="bg-black w-[350px]  p-5 h-[450px] mb-10">
+            <img className='w-[220px]  mb-7 ' src={burger} alt="" />
+                <h1 className='text-2xl mb-4'> <b>Hot Beverages</b> </h1>
+                <p className='text-[15px] text-gray-400 mb-4'>Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?</p>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Menu
+
+
+
+const Imges = [
+    { id: 1, img: beverages },
+    { id: 2, img: desserts },
+    { id: 3, img: refreshment },
+    { id: 4, img: combo },
+    { id: 5, img: coffee-hero-section },
+    { id: 6, img: burger-frenchfries },
+];
+
+
+
+const Menu = () => {
+  return (
+    <div className="black">
+      <Adress  adrees="Menu"/>
+          <div className="container mx-auto p-10 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 ">
+                <ul className="gallery grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 ">
+                    {Imges.map((Imgg) =>(
+                      <li key={Imgg.id}>
+                         <div className="bg-black w-[350px]  p-5 h-[450px] mb-10">
+                            <img className='w-[220px]  mb-7 ' src={Imgg.img} alt="" />
+                            <h1 className='text-2xl mb-4'> <b>Hot Beverages</b> </h1>
+                            <p className='text-[15px] text-gray-400 mb-4'>Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?</p>
+                        </div>
+                      </li>
+                    ))}
+                </ul>
+             </div>
+    </div>
+  )
+}
+
+export default Menu
