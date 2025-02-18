@@ -55,18 +55,18 @@ const Nav = () => {
       </div>
      
 
-      {/* icon bar */}
+      {/* icon bar
      <div className="fixed top-0 right-0 bg-white text-[brown] w-[200px] h-[1000px] transform ">
 
 
 
-          {/* close icon */}
+          close icon
           <div className="absolute top-4 left-2" onClick={() => setOpen(!setOpen)}>
               <IoClose className='text-2xl' />
           </div>
 
 
-          {/* data link */}
+          data link
             <ul className='flex flex-col p-10'>
                   {Links.map((item) => (
                     <li className='hover:bg-[#3F181C] hover:text-white p-2 m-4 rounded-md font-bold' key={item.id}>
@@ -81,7 +81,7 @@ const Nav = () => {
             </div>
             
 
-        </div>
+        </div> */}
 
 
       
